@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: "Montserrat",sans-serif;
+    font-size: 25px;
+}
+
+fieldset{
+    max-width: 60%;
+    margin: 0 auto;
+    min-width: 1100px;
+}
+legend{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*  FORM CSS */
+#form{
+    margin: 0 auto;
+    width: 50%;
+}
+
+#form input{
+    font-size: 20px;
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+    border: 1px solid rgb(226, 219, 219);
+    border-radius: 5px;
+}
+
+#form input[type = text]:hover{
+    background-color: aliceblue;
+}
+.btngrp{
+    display: flex;
+    flex-direction: row;
+    
+}
+#Submit{
+    width: 20% !important;
+    cursor: pointer;
+    margin: 5px;
+    min-width: 20%;
+}
+#Update{
+    display: none;
+    width: 20% !important;
+    cursor: pointer;
+    margin: 5px;
+}
+#resetBtn{
+    width: 20% !important;
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#search-input{
+    margin: 0 auto;
+    width: 20%;
+    margin-bottom: 20px;
+    min-width: 300px;
+}
+/* FORM CSS ENDS*/
+
+
+/* TABLE CSS */
+#productTable{
+    /* width: 80%;
+    max-width: 800px; */
+    width: 100%;
+    font-size: 14px;
+    margin: 0 auto;
+}
+#productTable th{
+    border-bottom: 2px solid rgb(226, 219, 219);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0 2px 0 2px;
+    font-size: 20px;
+    padding: 10px 12px;
+    align-items: center;
+}
+
+#productTable td{
+    border-bottom: 2px solid rgb(226, 219, 219);
+    padding: 5px 0;
+    text-align: center;
+}
+/* TABLE CSS ENDS*/
